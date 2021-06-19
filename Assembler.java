@@ -28,7 +28,6 @@ public class Assembler {
         }
 
         Parser p1 = new Parser(source_file);
-        //System.out.println(p1.translate());
 
         try {
             FileWriter fw = new FileWriter(target_file);
