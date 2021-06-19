@@ -1,6 +1,10 @@
 import java.util.*;
 import java.io.*;
 
+This is the first change by MalevolentStrix
+This is the second change by MalevolentStrix
+This is the third change by MalevolentStrix
+
 public class Assembler {
     public static void main(String[] args) {
 
