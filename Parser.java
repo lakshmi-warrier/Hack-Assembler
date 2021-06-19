@@ -14,7 +14,7 @@ import java.util.*;
 class Parser {
 
     Tables table = new Tables();
-    
+
     Hashtable<String, String> symbolTable = table.symbolTable;
     Hashtable<String, String> jumpMnemonics = table.jumpMnemonics;
     Hashtable<String, String> compMnemonics = table.compMnemonics;
@@ -80,7 +80,6 @@ class Parser {
         } catch (IOException e) {
             e.printStackTrace();
         }
-
     }
 
     String cleanCode(String code) {
