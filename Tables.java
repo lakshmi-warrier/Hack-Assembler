@@ -8,6 +8,7 @@ public class Tables {
     Hashtable<String, String> symbolTable = new Hashtable<String, String>();
 
     Tables() {
+        //initialise the Table class
         fillCompTable();
         fillDestTable();
         fillJmpTable();
